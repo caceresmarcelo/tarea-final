@@ -11,7 +11,7 @@ Soy un desarrollador web  apasionado por la programación. Me encanta explorar n
 
 Este proyecto fue creado como parte de mi aprendizaje en desarrollo web , en Potrero digitaL, específicamente para practicar y aplicar conceptos de maquetado con HTML y CSS. El objetivo era recrear una página estilo Linktree basándome en un boceto proporcionado y utilizando flexbox para el diseño.
 
-## Estructura del Proyecto
+
 
 
 
