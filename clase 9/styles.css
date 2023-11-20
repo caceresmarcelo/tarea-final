@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('assets/img/fotos/fondo tarea9.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 50px;
+    padding: 50px;
+}
+
+.linktree {
+    text-align: center;
+    max-width: 800px;
+    max-height: max-content;
+    margin: 0 auto; /* Centrar horizontalmente */
+    padding: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile {
+    text-align: center; /* Centrar el texto dentro de .profile */
+}
+
+.profile img {
+    max-width: 370px;
+    margin-bottom: 20px; /* Añadir margen inferior para separar la imagen del título */
+    margin-left: 20px; /* Añadir margen izquierdo para la imagen */
+}
+
+.profile h1 {
+    font-size: 40px;
+    margin: 0;
+    color: #333;
+}
+
+.links {
+    list-style: none;
+    padding: 0; /* Eliminar el relleno para centrar mejor */
+}
+
+.links li {
+    display:flex;
+    flex-direction: row; /* Alinear elementos en fila */
+    justify-content: space-between; /* Distribuir el espacio entre la imagen y el enlace */
+    align-items: center; /* Centrar verticalmente */
+    margin-bottom: 10px; 
+    justify-content: center;/* Agregar margen inferior para separar los elementos li */
+}
+
+.links a {
+    display: flex;
+    align-items: center; /* Centrar verticalmente dentro de <a> */
+    background-color: #f0f2f5;
+    color: #1c1b1b;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 100px;
+    max-width: 800px; /* Ajustar el ancho máximo de los enlaces al de linktree */
+    flex: 1; /* Distribuir el espacio disponible entre los enlaces */
+}
+
+.links img {
+    max-width: 300px; /* Ajustar el ancho máximo de la imagen */
+}
+
+.links b {
+    margin-left: 370px; /* Ajustar el margen izquierdo */
+}
+
+.links a:hover {
+    background-color: #0056b3;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center; 
+}
+
+.footer-icons a {
+    margin: 0 10px;
+    align-items: center; 
+}
