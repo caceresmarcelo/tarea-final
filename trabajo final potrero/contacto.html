@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    /* Estilos específicos para la página de contacto */
+    .contact-container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        text-align: center;
+    }
+
+    .contact-heading {
+        font-size: 24px;
+    }
+
+    .contact-social {
+        margin-top: 20px;
+        color: bisque;
+    }
+
+    .contact-social a {
+        text-decoration: none;
+        color: #00CC00; /* Verde para WhatsApp */
+        margin-right: 20px;
+        font-size: 24px; /* Ajusta el tamaño del icono */
+    }
+
+    .contact-form {
+        margin-top: 20px;
+    }
+
+    .contact-form label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .contact-form input[type="text"],
+    .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .contact-form button {
+        background-color: #333;
+        color: #e6dddd;
+        padding: 10px 20px;
+        border: none;
+    }
+</style>
+<body>
+    <div class="contact-container">
+        <h2 class="contact-heading">Contáctanos</h2>
+        <div class="contact-social">
+            <a href="https://wa.me/3413038743" target="_blank"><i class="fa fa-whatsapp"></i></a>
+            <a href="mailto:correo@ejemplo.com"><i class="fa fa-envelope"></i></a>
+            <!-- Agrega más enlaces a tus redes sociales aquí -->
+        </div>
+        <form class="contact-form" action="#" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
